@@ -183,23 +183,23 @@
           		  document.write("<td align='middle'>");
           		  if (x[i].getElementsByTagName("wfKor")[0].childNodes[0].nodeValue == "맑음")
           		  {
-          			document.write("<img src='./images/맑음.png' alt='맑음'>")
+          			document.write("<img src='./img/맑음.png' alt='맑음'>")
           		  }
           		  if (x[i].getElementsByTagName("wfKor")[0].childNodes[0].nodeValue == "구름많음")
           		  {
-          			document.write("<img src='./images/구름많음.png' alt='구름많음'>")
+          			document.write("<img src='./img/구름많음.png' alt='구름많음'>")
           		  }
           		  if (x[i].getElementsByTagName("wfKor")[0].childNodes[0].nodeValue == "구름조금")
           		  {
-          			document.write("<img src='./images/구름조금.png' alt='구름조금'>")
+          			document.write("<img src='./img/구름조금.png' alt='구름조금'>")
           		  }
           		  if (x[i].getElementsByTagName("wfKor")[0].childNodes[0].nodeValue == "흐리고 비" || x[i].getElementsByTagName("wfKor")[0].childNodes[0].nodeValue == "비")
           		  {
-          			document.write("<img src='./images/흐리고비.png' alt='흐리고비'>")
+          			document.write("<img src='./img/흐리고비.png' alt='흐리고비'>")
           		  }
           		  if (x[i].getElementsByTagName("wfKor")[0].childNodes[0].nodeValue == "눈/비")
           		  {
-          			document.write("<img src='./images/눈비.png' alt='눈/비'>")
+          			document.write("<img src='./img/눈비.png' alt='눈/비'>")
           		  }
           		//  document.write(x[i].getElementsByTagName("reliability")[0].childNodes[0].nodeValue);
           		  document.write("<br><font color='blue'>")
